@@ -1,4 +1,4 @@
-public class Fireball {
+public class Fireball extends Skills{
 
     private String name;
     private int damage;
@@ -7,12 +7,12 @@ public class Fireball {
 
     Fireball(String name) {
         this.name = name;
-        this.damage = 25;
-        this.range = 30;
+        this.damage = 20;
+        this.range = 25;
         this.manaCost = 10;
     }
 
-    void cast() {
+    public void use() {
         System.out.printf("%s is cast. It does %d damage, reaches %d ft, and uses %d mana.%n", name, damage, range, manaCost);
     }
 }

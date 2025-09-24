@@ -1,4 +1,4 @@
-public class LightningBolt {
+public class LightningBolt extends Skills{
 
     private String name;
     private int damage;
@@ -12,7 +12,7 @@ public class LightningBolt {
         this.manaCost = 25;
     }
 
-    void cast2() {
+    public void use() {
         System.out.printf("%s is cast. It does %d damage, reaches %d ft, and uses %d mana.%n", name, damage, range, manaCost);
     }
 }

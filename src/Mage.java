@@ -1,2 +1,17 @@
 public class Mage {
+    // Mage needs access to MageSkills
+    private String name;
+    private int health;
+    private int mana;
+    protected MageSkills skills;
+
+    Mage(String name) {
+        this.name = name;
+        this.health = 80;
+        this.mana = 150;
+        skills = new MageSkills();
+    }
+
+
+
 }
