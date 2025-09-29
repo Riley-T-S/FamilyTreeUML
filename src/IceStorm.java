@@ -1,23 +1,22 @@
-public class LightningBolt extends Skills{
+public class IceStorm extends Skills {
 
-    //Components of LightingBolt
+    //Components of IceStorm
     private String name;
     private int damage;
     private int range;
     private int manaCost;
 
-    //Initializing LightningBolt
-    LightningBolt(String name) {
+    //Constructing IceStorm
+    IceStorm(String name) {
         super(name);
         this.name = name;
-        this.damage = 50;
-        this.range = 60;
-        this.manaCost = 25;
+        this.damage = 100;
+        this.range = 100;
+        this.manaCost = 100;
     }
 
-    //Allowing LightningBolt to be used
+    //Allowing IceStorm to be used
     public void use() {
         System.out.printf("%s is cast. It does %d damage, reaches %d ft, and uses %d mana.%n", name, damage, range, manaCost);
     }
 }
-
