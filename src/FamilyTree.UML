@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="b6f5u7v8cEKefKxG0es9">
+    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aJqnKkSRnjG-kRozEkXM-1" value="Skills" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJqnKkSRnjG-kRozEkXM-2" value="Mage Skills" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJqnKkSRnjG-kRozEkXM-3" value="Mage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJqnKkSRnjG-kRozEkXM-4" value="Warrior" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJqnKkSRnjG-kRozEkXM-5" value="Warrior Skills" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJqnKkSRnjG-kRozEkXM-6" value="Fireball" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="100" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aJqnKkSRnjG-kRozEkXM-7" value="PS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="90" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
