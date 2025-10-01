@@ -14,10 +14,13 @@ public class MageSkills {
 
     }
 
-    public Skills get(int i) {return spells.get(i);
+        public Skills get(int i) {return spells.get(i);
+        }
+
+    @Override
+    public String toString() {
+        return "Mage Skills: " + String.join(", ", ArrayList(MageSkills), spells);
     }
-
-
 //    Fireball Skill = new Fireball("Fireball");
 //    LightningBolt Skill2 = new LightningBolt("Lightning Bolt");
 }

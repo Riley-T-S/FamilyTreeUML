@@ -5,6 +5,7 @@ public class Mage {
     private int mana;
     protected MageSkills skills;
 
+    //Mage Constructor
     Mage(String name) {
         this.name = name;
         this.health = 80;
@@ -12,6 +13,8 @@ public class Mage {
         skills = new MageSkills();
     }
 
-
+    void spawn() {
+        System.out.printf("%s spawns in. %s has %d health and %d mana.%n", name, name, health, mana);
+    }
 
 }

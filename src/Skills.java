@@ -5,13 +5,13 @@ public abstract class Skills {
         this.name = name;
     }
 
-    //Overriding spell names to make them more readable
+    //Overriding skill names to make them more readable
     @Override
     public String toString() {
         return name;
     }
 
-    //Allows spells to be used
+    //Allows skills to be used
     public abstract void use();
 
 }
